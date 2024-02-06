@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topNav {
+    display: flex;
+    background-color: rgb(108, 192, 192);
+    list-style: none;
+    padding: 10px;
+    justify-content: center;
+    position: sticky;
+}
+
+.topNav li {
+    padding-left: 40px;
+}
+
+.boxes {
+    display: flex;
+    background-color: rebeccapurple;
+    padding: 30px;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.txt{
+    background-color: brown;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.bottomNav {
+    display: flex;
+    background-color: rgb(50, 161, 252);
+    list-style: none;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.bottomNav li {
+    padding-left: 40px;
+}
