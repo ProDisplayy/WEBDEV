@@ -3,13 +3,16 @@
     padding: 0;
 }
 
+.top {
+    position: sticky;
+    top: 0px;
+}
+
 .topNav {
     display: flex;
     background-color: rgb(108, 192, 192);
     list-style: none;
     padding: 10px;
-    justify-content: center;
-    position: sticky;
 }
 
 .topNav li {
@@ -25,7 +28,7 @@
     margin-top: 5px;
 }
 
-.txt{
+.txt {
     background-color: brown;
     margin-top: 5px;
     border-radius: 20px;
@@ -34,6 +37,15 @@
     font-weight: 300;
     font-style: normal;
     font-size: 15px;
+}
+
+.float {
+    background-color: blanchedalmond;
+    position: fixed;
+    /* z-index: 5px; */
+    right: 25px;
+    bottom: 25px;
+
 }
 
 .bottomNav {
